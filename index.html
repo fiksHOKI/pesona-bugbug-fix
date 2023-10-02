@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>desa bugbug</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- navbar start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Pesona<span>BUGBUG</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hum"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- search form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- search form end -->
+
+      <!-- shopping cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/products/tenda.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 300K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/wedding.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>Product 2</h3>
+            <div class="item-price">IDR 300K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/paragliding.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>Product 3</h3>
+            <div class="item-price">IDR 300K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- shopping cart end -->
+    </nav>
+    <!-- navbar end-->
+
+    <!-- hero section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Surga di Tanah <span>Bugbug</span></h1>
+        <p>Desa Bugbug dengan sejuta keunikan, kesakralan, dan keindahan pesona alamnya</p>
+        <a href="#" class="cta">kunjungi sekarang</a>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about section start -->
+    <section id="about" class="about">
+      <h2>Desa <span>Bugbug</span></h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about.jpg" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Harus Berkunjung ke Bugbug?</h3>
+          <p>Desa Bugbug memiliki keindahan alam yang mampu memanjakan mata. Hamparan sawah, deburan ombak, sunrise dan sunset yang indah, sangat sayang jika dilewatkan.</p>
+          <p>Selain itu, keunikan dan kesakralan budayanya masih terjaga hingga sekarang. Jika anda ingin berlibur, Bugbug adalah salah satu destinasi wajib yang dapat anda kunjungi.</p>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- menu section start -->
+    <section id="menu" class="menu">
+      <h2><span>Gallery</span> Bugbug</h2>
+      <p>Ini adalah object-object yang ada di Desa Bugbug, keindahan alam yang masih terjaga dan asri.</p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/menu/menu1-img.jpg" alt="b-asah" class="menu-card-image" />
+          <h3 class="menu-card-title">Bukit Asah</h3>
+          <p class="menu-card-text">Hijaunya bukit, birunya laut, dan pulau paus akan memanjakan mata anda.</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/menu2-img.jpg" alt="p-paus" class="menu-card-image" />
+          <h3 class="menu-card-title">Pulau Paus</h3>
+          <p class="menu-card-text">Alasan kenapa dipanggil pulau paus karena bentuk pulau yang unik menyerupai paus.</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/menu3-img.jpg" alt="b-guungan" class="menu-card-image" />
+          <h3 class="menu-card-title">Bukit Guungan</h3>
+          <p class="menu-card-text">Indahnya pemandangan Candidasa dari ketinggian, akan membuat anda betah.</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/menu4-img.jpg" alt="k-cadas" class="menu-card-image" />
+          <h3 class="menu-card-title">Kolam Candidasa</h3>
+          <p class="menu-card-text">Hamparan bungan teratai akan menyambut anda disini, sangat cantik bukan?</p>
+        </div>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- product section start -->
+    <section class="products" id="products">
+      <h2>Fasilitas <span>Kami</span></h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum amet quod sint fugit officia ipsum!</p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/tenda.jpg" alt="products 1" />
+          </div>
+          <div class="product-content">
+            <h3>Tenda Ukuran Sedang</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 300K <span>IDR 450K</span></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/tenda2.jpg" alt="products 2" />
+          </div>
+          <div class="product-content">
+            <h3>Tenda Ukuran Besar</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 500K <span>IDR 700K</span></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/wedding.jpg" alt="products 3" />
+          </div>
+          <div class="product-content">
+            <h3>Wedding Ceremony</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 450K <span>IDR 700K</span></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/paragliding.jpg" alt="products 4" />
+          </div>
+          <div class="product-content">
+            <h3>Paragliding</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 1000K <span>IDR 1200K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product section end -->
+
+    <!-- contact section start -->
+    <section id="contact" class="contact">
+      <h2><span>Contact</span></h2>
+      <p>Langsung saja hubungi kami melalui kontak dibawah ini.</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15784.248009377867!2d115.57995009999999!3d-8.493352799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd209789ff0bfc1%3A0xa2113a73cb00e68a!2sBugbug%20Village!5e0!3m2!1sid!2sid!4v1694062210561!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="phone number" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer section start -->
+
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/samyawsutha"><i data-feather="instagram"></i></a>
+        <a href="https://youtube.com/@komangsamyawiryasuta1878?si=uQCxy_c0LfOn3H1B"><i data-feather="youtube"></i></a>
+        <a href="https://www.facebook.com/samya.wiryasuta.1?mibextid=ZbWKwL"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">samyawiryasuta</a>. | &copy;2023</p>
+      </div>
+    </footer>
+
+    <!-- footer section end -->
+
+    <!-- modal box start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/tenda.jpg" alt="product 1" />
+          <div class="product-content">
+            <h3>Tenda</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aspernatur minus facere, commodi saepe maxime officiis ducimus tempora nemo. Voluptates quas veniam nulla eveniet molestiae?</p>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 300K <span>IDR 450K</span></div>
+            <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal box end -->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
